@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class HomeReturnPg: UIViewController {
+@available(iOS 13.0, *)
+class HomeReturnPg: UIViewController ,UITableViewDataSource ,UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,15 +16,14 @@ class HomeReturnPg: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
     }
-    */
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeReturn") as! HomeReturnPG
+        tableView.rowHeight = 290
+        return cell
+    }
 
+    
 }

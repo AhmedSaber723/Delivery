@@ -1,12 +1,12 @@
 
 /* Class = "UILabel"; text = "Store"; ObjectID = "0BU-I1-cZU"; */
-"0BU-I1-cZU.text" = "Store";
+"0BU-I1-cZU.text" = "متجر";
 
 /* Class = "UILabel"; text = "0"; ObjectID = "0rh-59-eIT"; */
 "0rh-59-eIT.text" = "0";
 
 /* Class = "UIButton"; normalTitle = "Call"; ObjectID = "1cn-KJ-gjz"; */
-"1cn-KJ-gjz.normalTitle" = "Call";
+"1cn-KJ-gjz.normalTitle" = "اتصل";
 
 /* Class = "UILabel"; text = "12345678"; ObjectID = "28K-jo-ylB"; */
 "28K-jo-ylB.text" = "12345678";
@@ -15,28 +15,26 @@
 "2es-Li-ewn.text" = "#";
 
 /* Class = "UIButton"; normalTitle = "Change password"; ObjectID = "3wQ-D2-ayG"; */
-"3wQ-D2-ayG.normalTitle" = "Change password";
+"3wQ-D2-ayG.normalTitle" = "تغيير كلمة المرور";
 
 /* Class = "UILabel"; text = "Waiting to pay"; ObjectID = "4n7-u5-gyJ"; */
-"4n7-u5-gyJ.text" = "Waiting to pay";
+"4n7-u5-gyJ.text" = "انتظار الدفع";
 
 /* Class = "UINavigationItem"; title = "Home"; ObjectID = "5m9-fu-LEL"; */
-"5m9-fu-LEL.title" = "Home";
+"5m9-fu-LEL.title" = "الصفحة الرئيسية";
 
 /* Class = "UILabel"; text = "1"; ObjectID = "6Ja-LP-qKv"; */
 "6Ja-LP-qKv.text" = "1";
 
 /* Class = "UILabel"; text = "Home"; ObjectID = "6aS-cD-Tdj"; */
-"6aS-cD-Tdj.text" = "Home";
+"6aS-cD-Tdj.text" = "الصفحة الرئيسيه";
 
-/* Class = "UILabel"; text = "The shipment was successfully captured"; ObjectID = "87c-G4-2Qg"; */
-"87c-G4-2Qg.text" = "The shipment was successfully captured";
 
 /* Class = "UILabel"; text = "#5263569"; ObjectID = "8DS-fb-ntr"; */
 "8DS-fb-ntr.text" = "#5263569";
 
 /* Class = "UILabel"; text = "waiting to pay"; ObjectID = "9Lv-Or-uB0"; */
-"9Lv-Or-uB0.text" = "waiting to pay";
+"9Lv-Or-uB0.text" = "انتظار الدفع";
 
 /* Class = "UILabel"; text = "Egypt , cairo"; ObjectID = "AM6-FP-TA2"; */
 "AM6-FP-TA2.text" = "Egypt , cairo";
@@ -45,19 +43,19 @@
 "AVj-vQ-lnT.text" = "#";
 
 /* Class = "UILabel"; text = "Waiting to received delivery"; ObjectID = "AVz-LC-17p"; */
-"AVz-LC-17p.text" = "Waiting to received delivery";
+"AVz-LC-17p.text" = "انتظار الدفع";
 
 /* Class = "UIButton"; normalTitle = "Paid"; ObjectID = "Au3-wq-1qf"; */
-"Au3-wq-1qf.normalTitle" = "Paid";
+"Au3-wq-1qf.normalTitle" = "مدفوع";
 
 /* Class = "UILabel"; text = "Wallet"; ObjectID = "BUK-a7-Yg8"; */
-"BUK-a7-Yg8.text" = "Wallet";
+"BUK-a7-Yg8.text" = "المحفظة";
 
 /* Class = "UILabel"; text = "Shipment"; ObjectID = "Bei-fa-y0v"; */
-"Bei-fa-y0v.text" = "Shipment";
+"Bei-fa-y0v.text" = "الشحنة";
 
 /* Class = "UILabel"; text = "Item count"; ObjectID = "Bnc-bv-bQa"; */
-"Bnc-bv-bQa.text" = "Item count";
+"Bnc-bv-bQa.text" = "عدد الشحنات";
 
 /* Class = "UILabel"; text = "ibrahim Ahmed"; ObjectID = "Ci0-uJ-M37"; */
 "Ci0-uJ-M37.text" = "ibrahim Ahmed";
@@ -66,16 +64,16 @@
 "D4M-5L-Frq.text" = "Egypt , cairo";
 
 /* Class = "UILabel"; text = "Destination"; ObjectID = "DDv-Uo-Z0C"; */
-"DDv-Uo-Z0C.text" = "Destination";
+"DDv-Uo-Z0C.text" = "مكان التوصيل";
 
 /* Class = "UILabel"; text = "12345678"; ObjectID = "DZm-Ge-hgH"; */
 "DZm-Ge-hgH.text" = "12345678";
 
 /* Class = "UIButton"; normalTitle = "Delivry"; ObjectID = "Dc4-q3-ugd"; */
-"Dc4-q3-ugd.normalTitle" = "Delivry";
+"Dc4-q3-ugd.normalTitle" = "توصيل";
 
 /* Class = "UILabel"; text = "177 SR"; ObjectID = "EAy-Fd-Cy2"; */
-"EAy-Fd-Cy2.text" = "177 SR";
+"EAy-Fd-Cy2.text" = "ريال 177";
 
 /* Class = "UILabel"; text = "Golden Store"; ObjectID = "EW1-SO-FWE"; */
 "EW1-SO-FWE.text" = "Golden Store";
@@ -84,16 +82,16 @@
 "FNg-xD-icE.text" = "#";
 
 /* Class = "UILabel"; text = "3452 SR"; ObjectID = "G2S-Iq-soz"; */
-"G2S-Iq-soz.text" = "3452 SR";
+"G2S-Iq-soz.text" = "ريال 3452";
 
 /* Class = "UIButton"; normalTitle = "RESTART"; ObjectID = "H4o-9P-T6P"; */
-"H4o-9P-T6P.normalTitle" = "RESTART";
+"H4o-9P-T6P.normalTitle" = "اعادة البدء";
 
 /* Class = "UILabel"; text = "Cairo"; ObjectID = "HB0-Wm-oqZ"; */
 "HB0-Wm-oqZ.text" = "Cairo";
 
 /* Class = "UIButton"; normalTitle = "Signature"; ObjectID = "MYO-Kc-I5m"; */
-"MYO-Kc-I5m.normalTitle" = "Signature";
+"MYO-Kc-I5m.normalTitle" = "التوقيع";
 
 /* Class = "UILabel"; text = "1025"; ObjectID = "MZS-EK-tCf"; */
 "MZS-EK-tCf.text" = "1025";
@@ -108,19 +106,19 @@
 "Pa9-8F-2Uq.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "Paid"; ObjectID = "Q6C-jO-Pho"; */
-"Q6C-jO-Pho.text" = "Paid";
+"Q6C-jO-Pho.text" = "مدفوع";
 
 /* Class = "UILabel"; text = "12345678"; ObjectID = "QIN-Hr-PRy"; */
 "QIN-Hr-PRy.text" = "12345678";
 
 /* Class = "UILabel"; text = "Shipment"; ObjectID = "RfR-ti-mnR"; */
-"RfR-ti-mnR.text" = "Shipment";
+"RfR-ti-mnR.text" = "الشحنة";
 
 /* Class = "UILabel"; text = "Destination"; ObjectID = "S47-C1-Jir"; */
-"S47-C1-Jir.text" = "Destination";
+"S47-C1-Jir.text" = "مكان التوصيل";
 
 /* Class = "UIButton"; normalTitle = "SHUTDOWN"; ObjectID = "TdP-h3-1ct"; */
-"TdP-h3-1ct.normalTitle" = "SHUTDOWN";
+"TdP-h3-1ct.normalTitle" = "ايقاف التشغيل";
 
 /* Class = "UILabel"; text = "010256546532"; ObjectID = "Usa-I0-bM8"; */
 "Usa-I0-bM8.text" = "010256546532";
@@ -129,37 +127,37 @@
 "UuO-Wf-mx5.text" = "Golden Store";
 
 /* Class = "UILabel"; text = "Your signature"; ObjectID = "Uwn-jr-Ncb"; */
-"Uwn-jr-Ncb.text" = "Your signature";
+"Uwn-jr-Ncb.text" = "توقيعك";
 
 /* Class = "UILabel"; text = "10-10-2019 3.30 PM"; ObjectID = "VRg-l6-dqJ"; */
 "VRg-l6-dqJ.text" = "10-10-2019 3.30 PM";
 
 /* Class = "UILabel"; text = "Paid"; ObjectID = "Vgk-DL-E7Q"; */
-"Vgk-DL-E7Q.text" = "Paid";
+"Vgk-DL-E7Q.text" = "مدفوع";
 
 /* Class = "UILabel"; text = "0"; ObjectID = "Vo2-aa-Mho"; */
 "Vo2-aa-Mho.text" = "0";
 
 /* Class = "UILabel"; text = "52465 SR"; ObjectID = "W4z-Dt-haW"; */
-"W4z-Dt-haW.text" = "52465 SR";
+"W4z-Dt-haW.text" = "ريال 52465";
 
 /* Class = "UINavigationItem"; title = "Signature"; ObjectID = "WGT-kQ-VXp"; */
-"WGT-kQ-VXp.title" = "Signature";
+"WGT-kQ-VXp.title" = "التوقيع";
 
 /* Class = "UILabel"; text = "Pick up"; ObjectID = "YXu-2F-kJV"; */
-"YXu-2F-kJV.text" = "Pick up";
+"YXu-2F-kJV.text" = "التقط من المتجر";
 
 /* Class = "UILabel"; text = "Transit"; ObjectID = "Yxi-tQ-wih"; */
-"Yxi-tQ-wih.text" = "Transit";
+"Yxi-tQ-wih.text" = "ترانزيت";
 
 /* Class = "UILabel"; text = "Ibrahim Muhammed"; ObjectID = "ZpZ-NY-EkO"; */
 "ZpZ-NY-EkO.text" = "Ibrahim Muhammed";
 
 /* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "aEG-57-aII"; */
-"aEG-57-aII.normalTitle" = "Logout";
+"aEG-57-aII.normalTitle" = "تسجيل الخروج";
 
 /* Class = "UILabel"; text = "Store"; ObjectID = "b5I-jJ-ahq"; */
-"b5I-jJ-ahq.text" = "Store";
+"b5I-jJ-ahq.text" = "متجر";
 
 /* Class = "UILabel"; text = "#5263569"; ObjectID = "cJh-y0-Jde"; */
 "cJh-y0-Jde.text" = "#5263569";
@@ -168,25 +166,25 @@
 "dYQ-gv-lIx.text" = "010256546532";
 
 /* Class = "UIButton"; normalTitle = " Delivry"; ObjectID = "dih-ZY-7tn"; */
-"dih-ZY-7tn.normalTitle" = " Delivry";
+"dih-ZY-7tn.normalTitle" = " توصيل";
 
 /* Class = "UILabel"; text = "200 SR"; ObjectID = "eDe-71-DVH"; */
-"eDe-71-DVH.text" = "200 SR";
+"eDe-71-DVH.text" = "ريال 200";
 
 /* Class = "UIButton"; normalTitle = "Return"; ObjectID = "ewj-8q-xgr"; */
-"ewj-8q-xgr.normalTitle" = "Return";
+"ewj-8q-xgr.normalTitle" = "استرجاع";
 
 /* Class = "UILabel"; text = "1"; ObjectID = "gWS-2F-ye0"; */
 "gWS-2F-ye0.text" = "1";
 
 /* Class = "UIButton"; normalTitle = "Language"; ObjectID = "iIU-M1-Xd7"; */
-"iIU-M1-Xd7.normalTitle" = "Language";
+"iIU-M1-Xd7.normalTitle" = "اللغة";
 
 /* Class = "UILabel"; text = "profile"; ObjectID = "iZT-4f-fOK"; */
-"iZT-4f-fOK.text" = "profile";
+"iZT-4f-fOK.text" = "الصفحة الشخصية";
 
 /* Class = "UILabel"; text = "Shipment"; ObjectID = "jDE-Pp-lMr"; */
-"jDE-Pp-lMr.text" = "Shipment";
+"jDE-Pp-lMr.text" = "الشحنة";
 
 /* Class = "UILabel"; text = "Cairo"; ObjectID = "jST-Vf-FX3"; */
 "jST-Vf-FX3.text" = "Cairo";
@@ -204,70 +202,70 @@
 "led-Ni-TnP.text" = "0";
 
 /* Class = "UIButton"; normalTitle = "Returns"; ObjectID = "liV-yK-GpU"; */
-"liV-yK-GpU.normalTitle" = "Returns";
+"liV-yK-GpU.normalTitle" = "المرتجعات";
 
 /* Class = "UIButton"; normalTitle = "Call Phone"; ObjectID = "lyM-co-oxO"; */
 "lyM-co-oxO.normalTitle" = "Call Phone";
 
 /* Class = "UILabel"; text = "Summary"; ObjectID = "m32-63-sBE"; */
-"m32-63-sBE.text" = "Summary";
+"m32-63-sBE.text" = "الملخص";
 
 /* Class = "UILabel"; text = "1000SR"; ObjectID = "mYu-aa-yrb"; */
-"mYu-aa-yrb.text" = "1000SR";
+"mYu-aa-yrb.text" = "ريال 177";
 
 /* Class = "UIButton"; normalTitle = "See location"; ObjectID = "n0N-Uo-2gQ"; */
-"n0N-Uo-2gQ.normalTitle" = "See location";
+"n0N-Uo-2gQ.normalTitle" = "الموقع";
 
 /* Class = "UIButton"; normalTitle = " Refuse"; ObjectID = "nlK-NM-Tbg"; */
-"nlK-NM-Tbg.normalTitle" = " Refuse";
+"nlK-NM-Tbg.normalTitle" = " رفض";
 
 /* Class = "UIButton"; normalTitle = "CLEAR"; ObjectID = "oXv-Lh-LdO"; */
-"oXv-Lh-LdO.normalTitle" = "CLEAR";
+"oXv-Lh-LdO.normalTitle" = "مسح";
 
 /* Class = "UILabel"; text = "Price"; ObjectID = "owt-R3-yBB"; */
-"owt-R3-yBB.text" = "Price";
+"owt-R3-yBB.text" = "السعر";
 
 /* Class = "UILabel"; text = "200 SR"; ObjectID = "rCB-v1-dqr"; */
-"rCB-v1-dqr.text" = "200 SR";
+"rCB-v1-dqr.text" = "ريال 200";
 
 /* Class = "UILabel"; text = "Data"; ObjectID = "rYc-se-N14"; */
-"rYc-se-N14.text" = "Data";
+"rYc-se-N14.text" = "التاريخ";
 
 /* Class = "UILabel"; text = "Item count"; ObjectID = "rf6-gO-2FU"; */
-"rf6-gO-2FU.text" = "Item count";
+"rf6-gO-2FU.text" = "عدد الشحنات";
 
 /* Class = "UIButton"; normalTitle = "OpenWhats"; ObjectID = "s6a-bB-SOZ"; */
 "s6a-bB-SOZ.normalTitle" = "OpenWhats";
 
 /* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "shL-Jh-IW6"; */
-"shL-Jh-IW6.normalTitle" = "SAVE";
+"shL-Jh-IW6.normalTitle" = "حفظ";
 
 /* Class = "UILabel"; text = "Waiting to received return"; ObjectID = "tjU-UP-uQJ"; */
-"tjU-UP-uQJ.text" = "Waiting to received return";
+"tjU-UP-uQJ.text" = "انتظار المرتجات";
 
 /* Class = "UILabel"; text = "Waiting to pickup from store"; ObjectID = "uj5-TR-NgH"; */
-"uj5-TR-NgH.text" = "Waiting to pickup from store";
+"uj5-TR-NgH.text" = "انتظار الالتقاط من المتجر";
 
 /* Class = "UILabel"; text = "1"; ObjectID = "uqb-xr-pUd"; */
 "uqb-xr-pUd.text" = "1";
 
 /* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "vL1-3u-7xA"; */
-"vL1-3u-7xA.title" = "Item";
+"vL1-3u-7xA.title" = "رجوع";
 
 /* Class = "UILabel"; text = "Return request"; ObjectID = "wMu-tN-PnJ"; */
-"wMu-tN-PnJ.text" = "Return request";
+"wMu-tN-PnJ.text" = "طلبات المرتجعات";
 
 /* Class = "UIButton"; normalTitle = "Waiting to pay"; ObjectID = "wiT-TK-r6k"; */
-"wiT-TK-r6k.normalTitle" = "Waiting to pay";
+"wiT-TK-r6k.normalTitle" = "انتطار الدفع";
 
 /* Class = "UIButton"; normalTitle = "Personal details"; ObjectID = "x0w-oA-qIP"; */
-"x0w-oA-qIP.normalTitle" = "Personal details";
+"x0w-oA-qIP.normalTitle" = "التفاصيل الشخصية";
 
 /* Class = "UILabel"; text = "Delivery request"; ObjectID = "xyx-qL-p5d"; */
-"xyx-qL-p5d.text" = "Delivery request";
+"xyx-qL-p5d.text" = "طلبات التوصيل";
 
 /* Class = "UILabel"; text = "Store"; ObjectID = "y0g-8p-nmt"; */
-"y0g-8p-nmt.text" = "Store";
+"y0g-8p-nmt.text" = "متجر";
 
 /* Class = "UILabel"; text = "Ibrahim Muhammed"; ObjectID = "yGT-CG-tMi"; */
 "yGT-CG-tMi.text" = "Ibrahim Muhammed";

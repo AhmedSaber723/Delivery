@@ -1,7 +1,17 @@
-/* 
-  Localizable.strings
-  Task
-
-  Created by Saber on 8/18/20.
-  Copyright © 2020 Saber. All rights reserved.
-*/
+"language" = "ar";
+"items" = "تنبية";
+"retry" = "اعادة";
+"done" = "تاكيد";
+"Massage Confarm Picker" = "تم التقاط الشحنة بنجاح";
+"Home" = "الصفحة الرئيسية";
+"Picker up" = "التقط من المتجر";
+"Wallet" = "المحفظة";
+"Summary" = "الملخص";
+"Profile" = "الصفحة الشخصية";
+"Set language" = "تحديد اللغة";
+"Massage language" = "هل تريد تغيير اللغة الي الانجليزي ؟";
+"Cansel language" = "لا شكرآ";
+"Done language" = "تغيير";
+"Save Signtrue" = "حفظ";
+"Signtrue Massage"= "هل تريد حفظ التوقيع ؟";
+"Cancel Signtrue" = "رجوع";

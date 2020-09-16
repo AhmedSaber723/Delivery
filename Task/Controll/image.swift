@@ -8,12 +8,15 @@
 
 import UIKit
 
+var Image:UIImage = UIImage()
+
 class image: UIViewController {
 
+    @IBOutlet weak var myImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+            myImage.image = Image
     }
     
 

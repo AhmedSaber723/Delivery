@@ -7,24 +7,67 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
 class MapView: UIViewController {
 
+    @IBOutlet weak var MapDidView: MKMapView!
+    
+    let locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        checkLocationServices()
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func 	setuplocationmanager() {
+        
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
     }
-    */
+    func checkLocationServices() {
+        if CLLocationManager.locationServicesEnabled(){
+            setuplocationmanager()
+            checkLocationAuthorization()
+        }else {
+            
+        }
+    }
 
+    func checkLocationAuthorization(){
+        
+        switch CLLocationManager.authorizationStatus() {
+        case .authorizedWhenInUse:
+            MapDidView.showsUserLocation = true
+            break
+        case .denied:
+            break
+        case .notDetermined:
+            locationManager.requestWhenInUseAuthorization()
+            break
+        case .restricted:
+            break
+        case .authorizedAlways:
+            break
+            
+        
+       
+    }
+   
+    
+}
+    
+}
+
+extension MapView : CLLocationManagerDelegate {
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+    }
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        
+    }
+    
 }

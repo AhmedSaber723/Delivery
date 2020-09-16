@@ -1,7 +1,18 @@
-/* 
-  Localizable.strings
-  Task
-
-  Created by Saber on 8/18/20.
-  Copyright © 2020 Saber. All rights reserved.
-*/
+"language" = "en";
+"items" = "Items";
+"retry" = "Retry";
+"done" = "Done";
+"Massage Confarm Picker" = "The shipment was successfully captured";
+"Home" = "Home";
+"Picker up" = "Picker UP";
+"Wallet" = "Wallet";
+"Summary" = "Summary";
+"Profile" = "Profile";
+"Set language" = "Change language";
+"Massage language" = "Do you need change language to Arabic ? ";
+"Cansel language" = "No thanks";
+"Done language" = "Change";
+"Save Signtrue" = "Save";
+"Signtrue Massage"= "Do you Need Save This Signtrue ?";
+"Cancel Signtrue" = "Cancel";
+"

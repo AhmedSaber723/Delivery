@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+@available(iOS 13.0, *)
 class WalletWaitPaidPg: UIViewController {
 
     override func viewDidLoad() {
@@ -15,16 +15,54 @@ class WalletWaitPaidPg: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func BuOpenWhats(_ sender: Any) {
+        openWhatsapp(phoneNumber: "01023028488")
     }
-    */
+    
+    @IBAction func BuCallPhone(_ sender: Any) {
+        callNumber(phoneNumber: "01204169590")
+    }
+    func openWhatsapp(phoneNumber : String){
+         let urlWhats = "https://wa.me/+2\(phoneNumber)"
+         if let urlString = urlWhats.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed){
+             if let whatsappURL = URL(string: urlString) {
+                 if UIApplication.shared.canOpenURL(whatsappURL){
+                   
+                   
+                        UIApplication.shared.open(whatsappURL, options: [:], completionHandler: nil)
+                         
+                      
+                        
+                     }
+                 }
+                 else {
+                     print("Install Whatsapp")
+                
+                     let download = "https://apps.apple.com/us/app/whatsapp-messenger/id310633997"
+                     let url = URL(string: download)
+                                            
+                     let alert = UIAlertController(title: "Whatsapp not found", message: nil, preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "cancel", style: .cancel, handler: nil))
+                    alert.addAction(UIAlertAction(title: "Download", style: .default, handler: {(nil) in
+                                                
+                    UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+                                                
+                                            }))
+                    present(alert, animated: true, completion: nil)
+                
+                 }
+             }
+         }
+     
+
+    
+     func callNumber(phoneNumber: String) {
+        guard let url = URL(string: "telprompt://\(phoneNumber)"),
+            UIApplication.shared.canOpenURL(url) else {
+            return
+        }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+
 
 }

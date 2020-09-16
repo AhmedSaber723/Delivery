@@ -1,7 +1,8 @@
 
 
 import UIKit
-class mahfazaPage: UIViewController {
+@available(iOS 13.0, *)
+class WalletPage: UIViewController {
 
     @IBOutlet weak var BuPay: UIButton!
     @IBOutlet weak var BuWaitPay: UIButton!
@@ -16,9 +17,14 @@ class mahfazaPage: UIViewController {
         super.viewDidLoad()
         PaidPG.layer.masksToBounds = true
         WaitpayPG.layer.masksToBounds = true
-        
+        if LocalizationSystem.sharedInstance.getLanguage() == "en" {
         BuPay.layer.maskedCorners = [ .layerMinXMaxYCorner, .layerMinXMinYCorner]
-         BuWaitPay.layer.maskedCorners = [ .layerMaxXMaxYCorner, .layerMaxXMinYCorner]
+        BuWaitPay.layer.maskedCorners = [ .layerMaxXMaxYCorner, .layerMaxXMinYCorner]
+        } else {
+            
+            BuWaitPay.layer.maskedCorners = [ .layerMinXMaxYCorner, .layerMinXMinYCorner]
+            BuPay.layer.maskedCorners = [ .layerMaxXMaxYCorner, .layerMaxXMinYCorner]
+        }
     }
     
     

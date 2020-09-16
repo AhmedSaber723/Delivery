@@ -29,8 +29,6 @@
 /* Class = "UILabel"; text = "Home"; ObjectID = "6aS-cD-Tdj"; */
 "6aS-cD-Tdj.text" = "Home";
 
-/* Class = "UILabel"; text = "The shipment was successfully captured"; ObjectID = "87c-G4-2Qg"; */
-"87c-G4-2Qg.text" = "The shipment was successfully captured";
 
 /* Class = "UILabel"; text = "#5263569"; ObjectID = "8DS-fb-ntr"; */
 "8DS-fb-ntr.text" = "#5263569";
@@ -213,7 +211,7 @@
 "m32-63-sBE.text" = "Summary";
 
 /* Class = "UILabel"; text = "1000SR"; ObjectID = "mYu-aa-yrb"; */
-"mYu-aa-yrb.text" = "1000SR";
+"mYu-aa-yrb.text" = "1000 SR";
 
 /* Class = "UIButton"; normalTitle = "See location"; ObjectID = "n0N-Uo-2gQ"; */
 "n0N-Uo-2gQ.normalTitle" = "See location";
@@ -252,7 +250,7 @@
 "uqb-xr-pUd.text" = "1";
 
 /* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "vL1-3u-7xA"; */
-"vL1-3u-7xA.title" = "Item";
+"vL1-3u-7xA.title" = "Back";
 
 /* Class = "UILabel"; text = "Return request"; ObjectID = "wMu-tN-PnJ"; */
 "wMu-tN-PnJ.text" = "Return request";

@@ -7,24 +7,63 @@
 //
 
 import UIKit
-
+import MOLH
+@available(iOS 13.0, *)
 class ProfilePage: UIViewController {
 
+    @IBOutlet weak var LaName: UILabel!
+    @IBOutlet weak var ProImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func BuDetails(_ sender: Any) {
+        
+        
     }
-    */
-
+    
+    @IBAction func BuChange(_ sender: Any) {
+    }
+    
+    @IBAction func BuChangeLang(_ sender: Any) {
+        
+        
+        let alert = UIAlertController(title: "Set language".localized , message: "Massage language".localized, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Cansel language".localized, style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Done language".localized, style: .default, handler: {(nil) in
+            
+        MOLH.setLanguageTo(MOLHLanguage.currentAppleLanguage() == "en" ? "ar" : "en")
+        if #available(iOS 13.0, *) {
+            let delegate = UIApplication.shared.delegate as? AppDelegate
+                delegate!.swichRoot()
+        } else {
+                               
+                MOLH.reset()
+        }
+        }))
+        
+        present(alert,animated: true , completion: nil)
+       
+     
+        
+    }
+    
+    @IBAction func BuLogout(_ sender: Any) {
+        
+        let alert = UIAlertController(title: nil , message: "Massage language".localized, preferredStyle: .alert)
+             alert.addAction(UIAlertAction(title: "Cansel language".localized, style: .cancel, handler: nil))
+             alert.addAction(UIAlertAction(title: "Done language".localized, style: .default, handler: {(nil) in
+                
+                
+                
+                
+                
+        }))
+        present(alert,animated: true , completion: nil)
+        
+    }
+    
+    
 }
